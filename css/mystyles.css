@@ -3343,8 +3343,24 @@ a.navbar-item,
     .section.is-large {
       padding: 18rem 1.5rem; } }
 
-body {
-  height: 200vh; }
+* {
+  margin: 0;
+  padding: 0; }
 
 .navbar .navbar-brand {
   align-items: center; }
+
+.hero {
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/IMG_0162.jpg");
+  background-position: 0; }
+  .hero .hero-body {
+    height: 110vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; }
+    .hero .hero-body .level-right {
+      background-color: red;
+      color: white; }
