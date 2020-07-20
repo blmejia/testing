@@ -38,12 +38,14 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/layout/section.sass";
 
 
+body{
+    height: 200vh;
+}
+
 .navbar{
     .navbar-brand{
-        a{
-            img{
-                //height: 60px;
-            }
-        }
+        //display: flex;
+        align-items: center;
     }
+    
 }
