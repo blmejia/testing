@@ -42,6 +42,11 @@ $input-shadow: none;
     //height: 200vh;
     margin: 0;
     padding: 0;
+
+    hr{
+        background-color: $text;
+    }
+    
 }
 
 .navbar{
@@ -104,7 +109,9 @@ $input-shadow: none;
     h1, h3, button{
         margin: 20px;
     }
-
+    hr{
+        color: black;
+    }
 
 }
 

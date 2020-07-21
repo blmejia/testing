@@ -3346,6 +3346,8 @@ a.navbar-item,
 * {
   margin: 0;
   padding: 0; }
+  * hr {
+    background-color: #757763; }
 
 .navbar .navbar-brand {
   align-items: center; }
@@ -3385,6 +3387,8 @@ a.navbar-item,
   text-align: center; }
   .about h1, .about h3, .about button {
     margin: 20px; }
+  .about hr {
+    color: black; }
 
 @media only screen and (max-width: 1023px) {
   .hero {
