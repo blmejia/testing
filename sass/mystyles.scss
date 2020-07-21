@@ -136,9 +136,31 @@ $input-shadow: none;
 
 .footer{
     background-color: $beige-lighter;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
     img{
-        width: 150px;
+        width: 250px;
+        margin-bottom: 5%;
     }
+    ul{
+        //background-color: red;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-evenly;
+        //width: 50%;
+        margin-top: 10%;
+
+        li{
+            i{
+                font-size: 28px;
+                        color: black;
+            }
+        }
+    }
+
+    
 }
 
 
