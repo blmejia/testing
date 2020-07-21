@@ -3372,16 +3372,14 @@ a.navbar-item,
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/oz.jpg");
   background-position: left 0px top 80px; }
-  .mobile-landing .titles {
-    position: absolute; }
 
-.BLM {
+#blm {
   background-color: black;
   color: white;
   width: fit-content;
   position: absolute;
-  top: 75%;
-  left: 55%; }
+  left: 50%;
+  top: 75%; }
 
 @media only screen and (max-width: 1023px) {
   .hero {
