@@ -3390,6 +3390,16 @@ a.navbar-item,
   .about hr {
     color: black; }
 
+.Spotlight {
+  margin-top: 15%;
+  background-color: #212121; }
+  .Spotlight img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: solid 2px white; }
+  .Spotlight .title {
+    color: white; }
+
 @media only screen and (max-width: 1023px) {
   .hero {
     display: none; } }
