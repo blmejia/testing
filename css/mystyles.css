@@ -3383,11 +3383,8 @@ a.navbar-item,
 
 .about {
   text-align: center; }
-  .about h1, .about p, .about button {
+  .about h1, .about h3, .about button {
     margin: 20px; }
-  .about #title {
-    font-size: larger;
-    font-weight: bolder; }
 
 @media only screen and (max-width: 1023px) {
   .hero {
