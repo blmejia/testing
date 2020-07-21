@@ -3381,6 +3381,14 @@ a.navbar-item,
   left: 50%;
   top: 76%; }
 
+.about {
+  text-align: center; }
+  .about h1, .about p, .about button {
+    margin: 20px; }
+  .about #title {
+    font-size: larger;
+    font-weight: bolder; }
+
 @media only screen and (max-width: 1023px) {
   .hero {
     display: none; } }
@@ -3388,5 +3396,5 @@ a.navbar-item,
 @media only screen and (min-width: 1024px) {
   .mobile-landing {
     display: none; }
-  .BLM {
+  #blm {
     display: none; } }
