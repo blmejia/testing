@@ -67,10 +67,36 @@ $input-shadow: none;
         
         
         .level-right{
-            background-color: red;
+            
+            background-color: black;
             color: white;
             
         }
        
     }
 }
+
+.mobile-landing{
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('/img/oz.jpg');
+    background-position: left 0px top 80px;
+
+}
+
+@media only screen and (max-width: 1023px) { //touch
+   .hero{
+    display: none;
+   }
+
+   
+  }
+
+  @media only screen and (min-width: 1024px){
+    .mobile-landing{
+        display: none;
+    }
+  }
