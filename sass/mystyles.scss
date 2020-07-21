@@ -85,6 +85,18 @@ $input-shadow: none;
     url('/img/oz.jpg');
     background-position: left 0px top 80px;
 
+    .titles{
+        position: absolute;
+    }
+}
+
+.BLM{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    position: absolute;
+    top: 75%;
+    left: 55%;
 }
 
 @media only screen and (max-width: 1023px) { //touch
@@ -97,6 +109,10 @@ $input-shadow: none;
 
   @media only screen and (min-width: 1024px){
     .mobile-landing{
+        display: none;
+    }
+
+    .BLM{
         display: none;
     }
   }
