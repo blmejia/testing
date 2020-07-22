@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="../node_modules/dist/fakeLoader.min.css">
   </head>
   <body>
-    <div class="fakeloader"></div>
     <!--NAVBAR-->
     <nav class="navbar is-fixed-top has-shadow" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
@@ -62,12 +61,9 @@
       
           <div class="navbar-end">
             <div class="navbar-item">
-              <div class="buttons">
-                <a class="button is-primary">
-                  <strong>Contact</strong>
-                </a>
-                
-              </div>
+                <div class="buttons">
+                    <a class="button is-info" href="mailto:betasigmakappa@gmail.com?Subject=Hello%20">Contact</a>
+                  </div>
             </div>
           </div>
         </div>
@@ -107,7 +103,7 @@
       <section class="section">
         <div class="container">
           <h1 class="title">Latest News</h1>
-          <div data-aos="fade-up" data-aos-duration="2000" class="tile is-parent">
+          <div data-aos="fade-up" data-aos-duration="1500" class="tile is-parent">
             <article class="tile is-child notification is-info">
               <figure class="image is-4by3">
                 <img src="img/saviangrad.jpg">
@@ -184,19 +180,8 @@
         </div>
       </footer>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="../node_modules/dist/fakeLoader.min.js"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       
-
-      <script>
-          $(document).ready(function(){
-                $.fakeLoader({
-                    timeToHide:1200,
-                    bgColor:"#34495e",
-                    spinner:"spinner3"
-                });
-            });
-     </script>
       <script src="js/app.js"></script>
   </body>
 </html>
