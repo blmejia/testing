@@ -3347,7 +3347,8 @@ a.navbar-item,
   margin: 0;
   padding: 0; }
   * hr {
-    background-color: #757763; }
+    background-color: #E0E0E0;
+    font-weight: 100; }
 
 .navbar .navbar-brand {
   align-items: center; }
