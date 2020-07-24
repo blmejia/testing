@@ -3401,6 +3401,9 @@ a.navbar-item,
   .Spotlight .title {
     color: white; }
 
+.modal {
+  margin-top: 15%; }
+
 .footer {
   background-color: #EFF0EB;
   display: flex;
