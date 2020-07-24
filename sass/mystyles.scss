@@ -133,7 +133,9 @@ $input-shadow: none;
 }
 
 
-
+.modal{
+    z-index: 100001 !important;
+}
 
 
 .footer{
