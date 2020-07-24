@@ -28,9 +28,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   
 
-var closeModal = document.getElementById('closer')[0];
+var closeMenu = document.getElementById('closemenu');
+var menu = document.getElementById('secondary');
 
-closeModal.onclick = function(){
-  
+closeMenu.onclick = function(){
+   menu.click();
+   
 }
 
