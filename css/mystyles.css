@@ -3402,7 +3402,8 @@ a.navbar-item,
     color: white; }
 
 .modal {
-  margin-top: 15%; }
+  margin-top: 20%;
+  height: auto; }
 
 .footer {
   background-color: #EFF0EB;
