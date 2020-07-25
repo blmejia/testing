@@ -26,13 +26,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
   AOS.init();
 
-  
+  $("#fade").modal({
+    fadeDuration: 200
+    });
 
 var closeMenu = document.getElementById('closemenu');
 var menu = document.getElementById('secondary');
 
+
 closeMenu.onclick = function(){
    menu.click();
+
+  
    
 }
+
 
